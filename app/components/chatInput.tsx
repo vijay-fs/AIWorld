@@ -20,7 +20,7 @@ export default function ChatInput({ input, setInput, loading, sendMessage }: Cha
         disabled={input.trim() === "" || input.trim().length < 5}
         className="w-24 md:w-24 lg:w-auto px-4 lg:px-8 py-4 border-2 border-white bg-white text-black"
       >
-        {loading ? <p className="animate-spin">⏳</p> : "Ask Siri"}
+        {loading ? <p className="animate-spin">⏳</p> : "Ask QuMind"}
       </button>
     </form>
   );

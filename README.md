@@ -100,7 +100,7 @@ To enable anyone to test the application in production if they want to, I've add
 >
 > **Both API keys are stored on your local computer and are not saved to any database or sent to any server/third-party service (they're stored in [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) and you can [read the code](./app/components/storeApiKeys.tsx) yourself)**. The keys are only used to make API requests on your behalf each time you want to use the app. This is safe and secure for anyone to use **if you guarantee that no one else has access to your computer or browser**. You can use the "Delete" button in the form to remove the API keys from your local storage at any time.
 
-Enjoy chatting with Siri!
+Enjoy chatting with QuantaMind!
 
 ## Troubleshooting
 

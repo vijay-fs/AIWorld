@@ -7,11 +7,11 @@ export default function ChatMessages({ messages }: ChatMessagesProps) {
       {messages && messages.length === 0 ? (
         <div className="flex flex-col items-center">
           <Image
-            src="/logo.svg"
+            src="/logo.png"
             className="mt-20"
-            alt="Chat With Siri Logo"
-            width={650}
-            height={10}
+            alt="Chat With QuantaMind Logo"
+            width={100}
+            height={0}
             priority
           />
           <h2 className="text-xl text-center mt-12 animate-none lg:animate-bounce">
@@ -24,7 +24,7 @@ export default function ChatMessages({ messages }: ChatMessagesProps) {
             {message.role === "assistant" ? (
               <div className="flex mb-2 lg:mb-4">
                 <Image src="/bot.svg" alt="Robot Icon" width={20} height={20} priority />
-                <span className="ml-2 text-md lg:text-lg font-semibold text-blue-500">Siri:</span>
+                <span className="ml-2 text-md lg:text-lg font-semibold text-blue-500">QuMind:</span>
               </div>
             ) : (
               <div className="flex mb-2 lg:mb-4">

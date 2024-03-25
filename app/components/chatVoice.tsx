@@ -5,7 +5,7 @@ export default function ChatVoice({ voices, selectedVoice, setSelectedVoice }: C
     <>
       <div className="p-4 lg:p-8 lg:w-3/4 xl:w-2/4 border-0 lg:border-x-2 lg:border-white">
         <label className="mb-2 block text-sm lg:text-base" htmlFor="voices">
-          Change Siri&apos;s Voice:
+          Change QuMind&apos;s Voice:
         </label>
         <select
           id="voices"

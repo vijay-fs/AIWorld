@@ -123,7 +123,7 @@ export default function Home() {
         <Image
           src="/fav.svg"
           className="hidden lg:block mx-auto"
-          alt="Chat With Siri Logo"
+          alt="Chat With QuantaMind Logo"
           width={50}
           height={10}
         />

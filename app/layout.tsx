@@ -15,14 +15,14 @@ const ibm = IBM_Plex_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://chat-with-siri.vercel.app"),
   title: {
-    default: "Chat With Siri",
-    template: "%s | Chat With Siri"
+    default: "Chat With QuantaMind",
+    template: "%s | Chat With QuantaMind"
   },
   description: "A text-to-speech chatbot built with Nextjs, OpenAI's GPT-3, and ElevenLabs' API).",
-  applicationName: "Chat With Siri",
+  applicationName: "Chat With QuantaMind",
   manifest: "/manifest.json",
   appleWebApp: {
-    title: "Chat With Siri",
+    title: "Chat With QuantaMind",
     statusBarStyle: "black-translucent"
   },
   icons: {
