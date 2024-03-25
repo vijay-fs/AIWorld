@@ -12,7 +12,11 @@ const withPWA = require("next-pwa")({
 });
 
 const nextConfig = withPWA({
-  // Next config
+  env: {
+    NEXT_PUBLIC_APP_MODE: "development",
+    OPENAI_API_KEY: "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",
+    ELEVENLABS_API_KEY: "2dd3fec74fb9db2337f213a44fe91235"
+  }
 });
 
 module.exports = nextConfig;
