@@ -6,7 +6,7 @@ export async function POST(req: Request) {
   const { apiKey, message, voice } = await req.json();
 
   const elevenlabs = new ElevenLabsClient({
-    apiKey: isProduction ? apiKey : process.env.ELEVENLABS_API_KEY
+    apiKey: process.env.ELEVENLABS_API_KEY
   });
 
   try {

@@ -70,8 +70,8 @@ export const metadata: Metadata = {
     "javascript",
     "typescript"
   ],
-  authors: [{ name: "Bolaji Ayodeji", url: "https://bolajiayodeji.com" }],
-  creator: "Bolaji Ayodeji"
+  authors: [{ name: "Voilavichu", url: "https://voilavichu.online" }],
+  creator: "Voilavichu"
 };
 
 export const viewport = {

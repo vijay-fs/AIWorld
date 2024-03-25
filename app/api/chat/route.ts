@@ -16,16 +16,16 @@ export async function POST(req: Request) {
   });
   // End.
 
-  const res = await fetch("https://api.openai.com/v1/chat/completions", {
+  const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${isProduction ? apiKey : process.env.OPENAI_API_KEY}`
+      Authorization: `Bearer ${process.env.GROQ_API_KEY}`
     },
     body: JSON.stringify({
-      model: "gpt-3.5-turbo",
-      max_tokens: 100,
-      temperature: 0.7,
+      model: "mixtral-8x7b-32768",
+      max_tokens: 1024,
+      temperature: 0.5,
       n: 1,
       messages
     })
@@ -37,7 +37,7 @@ export async function POST(req: Request) {
       status: 401
     });
   }
-
+console.log(data,"data in route")
   const output = data.choices[0]?.message?.content?.trim();
   // Demo response (for testing purposes)
   // const output = "Hello, I am Siri.";

@@ -8,13 +8,6 @@ export interface Message {
   content: string;
 }
 
-export interface StoreApiKeysProps {
-  isModal: boolean;
-  setIsModal: (isModal: boolean) => void;
-  setOpenAiKey: (voice: string) => void;
-  setElevenLabsKey: (voice: string) => void;
-}
-
 export interface ChatVoiceProps {
   voices: VoiceResponse[];
   selectedVoice: string;
@@ -37,4 +30,11 @@ export interface ChatControlsProps {
   savedAudio: boolean;
   messages: Message[];
   clearMessages: () => void;
+}
+
+export interface StoreApiKeysProps {
+  isModal: boolean;
+  setIsModal: (isModal: boolean) => void;
+  setOpenAiKey: (openAiKey: string) => void;
+  setElevenLabsKey: (elevenLabsKey: string) => void;
 }
