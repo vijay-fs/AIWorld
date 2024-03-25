@@ -44,7 +44,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <Image
-            src="/openai.svg"
+            src="/groq.svg"
             className="dark:invert"
             alt="OpenAI's Logo"
             width={200}
