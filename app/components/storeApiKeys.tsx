@@ -79,7 +79,7 @@ export default function StoreApiKeys({
             &apos;Delete&apos; button. Kindly read{" "}
             <a
               className="text-blue-500 underline underline-offset-8 hover:no-underline"
-              href="https://bit.ly/chat-with-siri-guide"
+              href="https://github.com/vijay-fs/QuantaMind/#api-keys-guide"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -110,7 +110,7 @@ export default function StoreApiKeys({
             </p>
             <form id="keys-form" action={handleSaveKeys} className="px-4">
               <label className="absolute text-sm p-5 text-gray-500" htmlFor="openai-key">
-                {isFocused ? "" : "OpenAI..."}
+                {isFocused ? "" : "Groq..."}
               </label>
               <input
                 id="openai-key"

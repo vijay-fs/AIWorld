@@ -10,7 +10,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          OpenAI&apos;s GPT-3 Chat Completions API
+          Groq with Mixtral model Chat Completions API
         </a>
         , and{" "}
         <a
@@ -74,7 +74,7 @@ export default function Home() {
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300"
         >
           <h2 className={`mb-3 text-2xl font-semibold text-blue-500`}>
-            Chat With Siri{" "}
+            Chat With QuantaMind{" "}
             <span className="ml-4 animate-bounce inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               ➤
             </span>
@@ -83,7 +83,7 @@ export default function Home() {
             Ask the chatbot a question by text and get an audio response alongside text.
           </p>
         </a>
-        <a
+        {/* <a
           href="https://blog.bolajiayodeji.com/how-to-build-an-audio-chatbot-with-nextjs-openai-and-elevenlabs"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300"
           target="_blank"
@@ -98,10 +98,10 @@ export default function Home() {
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Learn how this demo was built by reading a comprehensive blogpost.
           </p>
-        </a>
+        </a> */}
 
         <a
-          href="https://github.com/BolajiAyodeji/chat-with-siri"
+          href="https://github.com/vijay-fs/QuantaMind"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300"
           target="_blank"
           rel="noopener noreferrer"
@@ -129,8 +129,8 @@ export default function Home() {
         />
         <p className="text-center">
           &copy;{" "}
-          <a href="https://bolajiayodeji.com" target="_blank" rel="noopener noreferrer">
-            Bolaji Ayodeji
+          <a href="https://voilavichu.online" target="_blank" rel="noopener noreferrer">
+            VoilaVichu
           </a>{" "}
           | 2024 - {new Date().getFullYear()}
         </p>

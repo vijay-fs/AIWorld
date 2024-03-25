@@ -7,6 +7,7 @@ export default async function getVoices() {
     // Use the API key from env in production
     // So the voices are available on first render.
     apiKey: process.env.ELEVENLABS_API_KEY
+    
   });
 
   try {
