@@ -13,12 +13,12 @@ const ibm = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://chat-with-siri.vercel.app"),
+  metadataBase: new URL("https://quantamind-vijay-fs.vercel.app/"),
   title: {
     default: "Chat With QuantaMind",
     template: "%s | Chat With QuantaMind"
   },
-  description: "A text-to-speech chatbot built with Nextjs, OpenAI's GPT-3, and ElevenLabs' API).",
+  description: "A text-to-speech chatbot built with Nextjs, Groq, and ElevenLabs' API).",
   applicationName: "Chat With QuantaMind",
   manifest: "/manifest.json",
   appleWebApp: {
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     locale: "en_US",
     type: "website",
-    url: "https://chat-with-siri.vercel.app",
+    url: "https://quantamind-vijay-fs.vercel.app/",
     images: [
       {
         url: "/og.jpg",
